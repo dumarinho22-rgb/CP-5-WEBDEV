@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INTRUÇÕES DO PROJETO
 
 O projeto consome a API pública do Valorant e permite visualizar uma lista
