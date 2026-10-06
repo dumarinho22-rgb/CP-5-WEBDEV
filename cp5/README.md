@@ -96,7 +96,7 @@ npm start
 
  ##Deploy
  URL do deploy:
- COLOCAR\_URL\_DA\_VERCEL\_AQUI
+ (https://cp-5-webdev-sigma.vercel.app)
 
  ##Repositório
  URL do GitHub:
