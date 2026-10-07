@@ -3,7 +3,7 @@ INTRUÇÕES DO PROJETO
 O projeto consome a API pública do Valorant e permite visualizar uma lista
 de agentes e acessar uma página individual com detalhes de cada agente.
 
-##Tecnologias
+Tecnologias
 - Next.js
 - React
 - JavaScript
@@ -11,25 +11,20 @@ de agentes e acessar uma página individual com detalhes de cada agente.
 - CSS
 - Valorant API
 
-##Funcionalidades
+Funcionalidades
 - Listagem de agentes
 - Busca por nome
 - Página individual de detalhes
 - Consumo da API utilizando Axios
 - useState
 - useEffect
-- useMemo
-- useCallback
 - useRef
 - Loading
 - Tratamento de erros
-- Cache utilizando localStorage
-- Componentização
-- Navegação utilizando Next.js
-- Layout responsivo
 
-##Estrutura
-```text
+
+
+Estrutura
 app/
 ├── details/
 │   └── [id]/
@@ -49,9 +44,9 @@ components/
 
 lib/
 └── validateCheckpointIntegrity.js
-````
 
-##Instalação
+
+Instalação
 Clone o projeto:
  git clone URL_DO_REPOSITORIO
 
@@ -68,7 +63,7 @@ npm run dev
  Acesse:
 http://localhost:3000
 
-##Build
+Build
 Para gerar a versão de produção:
 
 npm run build
@@ -77,7 +72,7 @@ npm run build
 npm start
 
 
- ##API
+ API
  O projeto utiliza a Valorant API:
  https://valorant-api.com/
 
@@ -87,17 +82,17 @@ npm start
  Detalhes:
  https://valorant-api.com/v1/agents/{uuid}
 
- ##Cache offline
+ Cache offline
 
  Os dados recebidos da API são armazenados no localStorage.
 
  Caso a API esteja indisponível posteriormente, o aplicativo tenta\
  utilizar os dados armazenados anteriormente.
 
- ##Deploy
+ Deploy
  URL do deploy:
  (https://cp-5-webdev-sigma.vercel.app)
 
- ##Repositório
+ Repositório
  URL do GitHub:
  (https://github.com/dumarinho22-rgb/CP-5-WEBDEV.git)
