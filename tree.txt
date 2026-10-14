@@ -1,0 +1,37 @@
+CP-5-WEBDEV/
+cp5/
+cp5/.gitignore (480b)
+cp5/app/
+cp5/app/details/
+cp5/app/details/[id]/
+cp5/app/details/[id]/page.js (0b)
+cp5/app/favicon.ico (15086b)
+cp5/app/globals.css (488b)
+cp5/app/layout.tsx (690b)
+cp5/app/page.js (480b)
+cp5/app/page.tsx (3076b)
+cp5/components/
+cp5/components/AgentCard.js (1462b)
+cp5/components/AgentGrid.js (289b)
+cp5/components/ErrorMessage.js (541b)
+cp5/components/Header.js (0b)
+cp5/components/Loading.js (0b)
+cp5/components/SearchBar.js (0b)
+cp5/components/StatCard.js (211b)
+cp5/eslint.config.mjs (465b)
+cp5/lib/
+cp5/lib/validatCheckpoint.js (0b)
+cp5/next.config.ts (366b)
+cp5/package-lock.json (242294b)
+cp5/package.json (551b)
+cp5/public/
+cp5/public/file.svg (391b)
+cp5/public/globe.svg (1035b)
+cp5/public/next.svg (1375b)
+cp5/public/vercel.svg (128b)
+cp5/public/window.svg (385b)
+cp5/README.md (1649b)
+cp5/tsconfig.json (666b)
+gitcontext.txt (1410b)
+package-lock.json (90b)
+participantes.md (114b)

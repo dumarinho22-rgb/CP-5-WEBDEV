@@ -1,0 +1,138 @@
+{
+  "turma": "1ESPZ",
+  "project": "dumarinho22-rgb-CP-5-WEBDEV",
+  "hasGit": true,
+  "nextRoots": [
+    {
+      "pkgPath": "cp5/package.json",
+      "dir": "/Volumes/externo/FIAP/corretor-avaliacoes/turmas/2026/checkpoint-5/1ESPZ/dumarinho22-rgb-CP-5-WEBDEV/cp5",
+      "next": "16.4.0",
+      "axios": "^1.20.0",
+      "react": "19.3.0",
+      "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint"
+      }
+    }
+  ],
+  "components": [
+    {
+      "name": "AgentCard",
+      "file": "cp5/components/AgentCard.js",
+      "inComponents": true
+    },
+    {
+      "name": "AgentGrid",
+      "file": "cp5/components/AgentGrid.js",
+      "inComponents": true
+    },
+    {
+      "name": "ErrorMessage",
+      "file": "cp5/components/ErrorMessage.js",
+      "inComponents": true
+    },
+    {
+      "name": "StatCard",
+      "file": "cp5/components/StatCard.js",
+      "inComponents": true
+    }
+  ],
+  "componentCount": 4,
+  "componentsInComponentsFolder": 4,
+  "axiosHits": [
+    "cp5/app/page.js:2: import axios from \"axios\";",
+    "cp5/app/page.js:10: const res = await axios.get(",
+    "cp5/package-lock.json:13: \"axios\": \"^1.20.0\",",
+    "cp5/package-lock.json:2695: \"node_modules/axios\": {",
+    "cp5/package-lock.json:2697: \"resolved\": \"https://registry.npmjs.org/axios/-/axios-1.20.0.tgz\",",
+    "cp5/package.json:12: \"axios\": \"^1.20.0\","
+  ],
+  "fetchHits": [],
+  "useStateHits": [
+    "cp5/README.md:19: - useState",
+    "cp5/app/page.js:3: import { useEffect, useState } from \"react\";",
+    "cp5/app/page.js:6: const [data, setData] = useState([]);"
+  ],
+  "useEffectHits": [
+    "cp5/README.md:20: - useEffect",
+    "cp5/app/page.js:3: import { useEffect, useState } from \"react\";",
+    "cp5/app/page.js:8: useEffect(() => {"
+  ],
+  "useRouterHits": [],
+  "linkHits": [
+    "cp5/components/AgentCard.js:3: import Link from \"next/link\";",
+    "cp5/components/AgentCard.js:40: <Link"
+  ],
+  "useClientHits": [
+    "cp5/app/page.js:1: \"use client\";",
+    "cp5/components/AgentCard.js:1: \"use client\";",
+    "cp5/components/AgentGrid.js:1: \"use client\";",
+    "cp5/components/ErrorMessage.js:1: \"use client\";",
+    "cp5/components/StatCard.js:1: \"use client\";"
+  ],
+  "useMemoHits": [],
+  "useCallbackHits": [],
+  "useRefHits": [
+    "cp5/README.md:21: - useRef"
+  ],
+  "localStorageHits": [
+    "cp5/README.md:87: Os dados recebidos da API são armazenados no localStorage."
+  ],
+  "loadingHints": [
+    "cp5/README.md:22: - Loading",
+    "cp5/README.md:41: ├── Loading.js",
+    "cp5/components/AgentCard.js:14: loading=\"lazy\""
+  ],
+  "errorHints": [
+    "cp5/components/ErrorMessage.js:5: <div className=\"error-container\">",
+    "cp5/components/ErrorMessage.js:6: <div className=\"error-icon\">!</div>",
+    "cp5/package-lock.json:3716: \"zod-validation-error\": \"^3.5.0 || ^4.0.0\""
+  ],
+  "searchHints": [
+    "cp5/README.md:16: - Busca por nome",
+    "cp5/package-lock.json:2471: \"node_modules/aria-query\": {",
+    "cp5/package-lock.json:2473: \"resolved\": \"https://registry.npmjs.org/aria-query/-/aria-query-5.3.2.tgz\",",
+    "cp5/package-lock.json:2708: \"node_modules/axobject-query\": {",
+    "cp5/package-lock.json:2710: \"resolved\": \"https://registry.npmjs.org/axobject-query/-/axobject-query-4.1.0.tgz\",",
+    "cp5/package-lock.json:3649: \"aria-query\": \"^5.3.2\",",
+    "cp5/package-lock.json:3654: \"axobject-query\": \"^4.1.0\","
+  ],
+  "dynamicRoutes": [
+    "cp5/app/details/[id]/page.js"
+  ],
+  "honeypots": [
+    {
+      "id": "H6",
+      "where": "cp5/README.md:46",
+      "snippet": "└── validateCheckpointIntegrity.js"
+    }
+  ],
+  "reduxVueClass": [],
+  "readmes": [
+    {
+      "path": "cp5/README.md",
+      "preview": "INTRUÇÕES DO PROJETO\n\nO projeto consome a API pública do Valorant e permite visualizar uma lista\nde agentes e acessar uma página individual com detalhes de cada agente.\n\nTecnologias\n- Next.js\n- React\n- JavaScript\n- Axios\n- CSS\n- Valorant API\n\nFuncionalidades\n- Listagem de agentes\n- Busca por nome\n- Página individual de detalhes\n- Consumo da API utilizando Axios\n- useState\n- useEffect\n- useRef\n- Loading\n- Tratamento de erros\n\n\n\nEstrutura\napp/\n├── details/\n│   └── [id]/\n│       └── page.js\n├── globals.css\n├── layout.js\n└── page.js\n\ncomponents/\n├── AgentCard.js\n├── AgentGrid.js\n├── ErrorMessage.js\n├── Header.js\n├── Loading.js\n├── SearchBar.js\n└── StatCard.js\n\nlib/\n└── validateCheckpointIntegrity.js\n\n\nInstalação\nClone o projeto:\n git clone URL_DO_REPOSITORIO\n\nEntre na pasta:\n cd checkpoint-5\n\n\nInstale as dependências:\nnpm install\n\nExecute em desenvolvimento:\nnpm run dev\n\n Acesse:\nhttp://localhost:3000\n\nBuild\nPara gerar a versão de produção:\n\nnpm run build\n\n Depois:\nnpm start\n\n\n API\n O projeto utiliza a Valorant API:\n https://valorant-api.com/\n\n Lista de agentes:\n https://valorant-api.com/v1/agents?isPlayableCharacter=true&language=pt-BR\n\n Detalhes:\n https://valorant-api.com/v1/agents/{uuid}\n\n Cache offline\n\n Os dados recebidos da API são armazenados no localStorage.\n\n Caso a API esteja indisponível posteriormente, o aplicativo tenta\\\n utilizar os dados armazenados anteriormente.\n\n Deploy\n URL do deploy:\n (https://cp-5-webdev-sigma.vercel.app)\n\n Repositório\n URL do GitHub:\n (https"
+    }
+  ],
+  "participantes": [
+    {
+      "path": "participantes.md",
+      "preview": "Eduardo Marinho Onaga - RM:571660 \nJoão Rafael - RM:569968\nGuilherme Padovani - RM:570855\nJoão Leão - RM:569864"
+    }
+  ],
+  "vercelLinks": [
+    "https://cp-5-webdev-sigma.vercel.app"
+  ],
+  "apiHints": [
+    "Valorant"
+  ],
+  "git": {
+    "commitCount": 18,
+    "branch": "main",
+    "remote": "origin\thttps://github.com/dumarinho22-rgb/CP-5-WEBDEV (fetch)\norigin\thttps://github.com/dumarinho22-rgb/CP-5-WEBDEV (push)",
+    "shortlog": "14\tLaboratório FIAP <labsfiap@fiap.com.br>\n     4\tJoão Leão <joaopontes.leao@gmail.com>",
+    "logOneline": "d4c4bd9 readme final\neb550d7 lib\naf55661 READme\n62aa1f9 readme\nc5f4b13 readme\ne3dbef2 StatCard e Error\nb3e91fd Readme\n6dd5c3d readme\na70c26b Api e mais\n9421e02 Correção nos nomes\ndcbc172 componentes\nf198868 link do deploy\n9f88ed9 criação da page\na1476d8 criação da page\nac3324c useState\nd0ccd10 README\nffbacf0 Participantes\n03b0795 Primeiro commit"
+  }
+}

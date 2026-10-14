@@ -1,0 +1,62 @@
+# CONTEXTO GIT - 1ESPZ/dumarinho22-rgb-CP-5-WEBDEV
+# Path: /Volumes/externo/FIAP/corretor-avaliacoes/turmas/2026/checkpoint-5/1ESPZ/dumarinho22-rgb-CP-5-WEBDEV
+
+## git remote -v
+origin	https://github.com/dumarinho22-rgb/CP-5-WEBDEV (fetch)
+origin	https://github.com/dumarinho22-rgb/CP-5-WEBDEV (push)
+
+## git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+## git log --oneline -50 (default branch)
+d4c4bd9 readme final
+eb550d7 lib
+af55661 READme
+62aa1f9 readme
+c5f4b13 readme
+e3dbef2 StatCard e Error
+b3e91fd Readme
+6dd5c3d readme
+a70c26b Api e mais
+9421e02 Correção nos nomes
+dcbc172 componentes
+f198868 link do deploy
+9f88ed9 criação da page
+a1476d8 criação da page
+ac3324c useState
+d0ccd10 README
+ffbacf0 Participantes
+03b0795 Primeiro commit
+
+## git shortlog -sn -e (HEAD)
+14	Laboratório FIAP <labsfiap@fiap.com.br>
+     4	João Leão <joaopontes.leao@gmail.com>
+
+## git log --oneline --graph --all -20
+* d4c4bd9 readme final
+* eb550d7 lib
+* af55661 READme
+*   62aa1f9 readme
+|\  
+| * e3dbef2 StatCard e Error
+| * a70c26b Api e mais
+| * 9421e02 Correção nos nomes
+| * dcbc172 componentes
+| * f198868 link do deploy
+* | c5f4b13 readme
+* | b3e91fd Readme
+* | 6dd5c3d readme
+|/  
+*   9f88ed9 criação da page
+|\  
+| * ac3324c useState
+* | a1476d8 criação da page
+|/  
+* d0ccd10 README
+* ffbacf0 Participantes
+* 03b0795 Primeiro commit
+
+## contagem de commits HEAD
+18
